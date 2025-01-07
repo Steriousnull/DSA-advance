@@ -1,5 +1,8 @@
 # merge sort
 # split everthing using recusion
+#space complexity is 0(n)
+#time complexity is 0(nlog(n))
+
 def Mergesort(array):
     if len(array)>1:
         middle = len(array)//2
